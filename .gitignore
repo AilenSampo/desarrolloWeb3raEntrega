@@ -1,0 +1,6 @@
+*.log
+*.map
+*.psd
+*.pdf
+*.vscode
+node_modules/
