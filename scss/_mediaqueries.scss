@@ -1,0 +1,73 @@
+@media (min-width:200px) and (max-width:810px){
+    .logoimg{
+        height: 100PX;
+        width: 100PX ;
+        display: flex;
+        justify-content: left;
+    }    
+}
+
+@media (min-width:200px) and (max-width:613px){
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:200px) and (max-width:613px){
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:200px) and (max-width:1810px){
+    .imgploteo {
+    display: block;
+    width: 100%;
+    margin: 0 auto; 
+    object-fit: cover;
+    }
+}
+
+//pantallas md y sm 
+@media (min-width: 280px) and (max-width: 991px) {
+    .container-grid {
+        display: none; 
+        }
+        .corousel-md {
+        display: block; 
+        }
+}
+
+// pantallas lg 
+@media (min-width: 992px) {
+    .container-grid {
+        display: grid; 
+        } 
+        .corousel-md {
+        display: none;
+        }
+}
+
+@media (min-width: 650px) and (max-width:1180px){
+    .adv-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "img1 img2"
+        "img3 img4";
+        place-items: center;
+    }
+}
+
+@media (min-width:280px) and (max-width:400px){
+    .logorrss{
+        height: 15px;
+        width: 15px;
+        justify-content: space-between;
+        margin-left: 3px;
+    }
+}
+

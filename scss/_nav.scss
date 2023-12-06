@@ -1,0 +1,36 @@
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $color1;
+            text-align: right;
+            .logoimg{
+                height: 150PX;
+                width: 150PX;
+                display: flex;
+                justify-content: left;
+                .logo-nav{
+                    object-fit: cover;
+                }
+            }
+            ul{
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    margin-right: 20px;
+                    font-weight: bold;
+                    a {
+                        text-decoration: none;
+                        color: $color6;
+                        nav a:hover {
+                            color:$color5;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+

@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Roboto:ital,wght@0,300;1,300&display=swap");
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-fluid {
+  display: flex;
+}
+
+.titulo-principal {
+  font-size: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #F26835;
+}
+
+.titulo-secundario {
+  color: #25D9B8;
+  font-weight: bold;
+}
+
+.descripcion-principal {
+  font-size: 20px;
+}
+
+.main {
+  min-height: 90vh;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.imgploteo {
+  display: block;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.texto {
+  padding-bottom: 10px;
+}
+
+.formulario-container {
+  max-width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container-grid {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "figure1 figure3 figure3 figure4 figure4 figure5" "figure2 figure3 figure3 figure4 figure4 figure6" "figure7 figure7 figure8 figure10 figure12 figure12" "figure7 figure7 figure9 figure11 figure12 figure12";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #127CA6;
+  text-align: right;
+}
+nav .collapse {
+  background-color: #127CA6;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  position: sticky;
+}
+nav nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav nav ul li nav a {
+  text-decoration: none;
+  color: black;
+}
+nav nav ul li nav a nav a:hover {
+  color: rgb(239, 3, 42);
+}
+nav .logoimg {
+  height: 150PX;
+  width: 150PX;
+  display: flex;
+  justify-content: left;
+}
+nav .logoimg .logo-nav {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 200px) and (max-width: 810px) {
+  .logoimg {
+    height: 100PX;
+    width: 100PX;
+    display: flex;
+    justify-content: left;
+  }
+}
+@media (min-width: 200px) and (max-width: 613px) {
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media (min-width: 200px) and (max-width: 613px) {
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media (min-width: 200px) and (max-width: 1810px) {
+  .imgploteo {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 280px) and (max-width: 991px) {
+  .container-grid {
+    display: none;
+  }
+  .corousel-md {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .container-grid {
+    display: grid;
+  }
+  .corousel-md {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
