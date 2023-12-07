@@ -1,31 +1,31 @@
 footer {
     display: flex;
     align-items: center;
-    background-color: #127CA6;
+    background-color: $color1;
     justify-content: space-between;
     margin-top: 20px;
+    li {
+        list-style: none;
+        .logorrss{
+            height: 20px;
+            width: 20px;
+            justify-content: space-between;
+            margin-left: 5px;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            margin-top: 20px;
+            a:hover {
+                color:$color5 ;
+            }
+        }
+    }
     h5{
         text-decoration: underline;
         font-size: 18px;
-        li {
-            list-style: none;
-            a {
-                font-weight: bold;
-                text-decoration: none;
-                color: black;
-                font-size: 15px;
-                margin-top: 20px;
-                .logorrss{
-                    height: 20px;
-                    width: 20px;
-                    justify-content: space-between;
-                    margin-left: 5px;
-                }
-                a:hover {
-                    color:$color5 ;
-                }
-            }
-        }
     }
 }
 

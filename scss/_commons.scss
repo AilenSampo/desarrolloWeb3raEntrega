@@ -19,6 +19,7 @@ main{
         justify-content: center;
         text-align: center;
         padding: 20px;
+        padding-top: 100px;
         .titulo-principal{
             font-size:'Roboto', sans-serif;
             font-weight: bold;
@@ -66,17 +67,17 @@ section{
         padding-bottom: 10px;
     }
 
-    .container-grid{
+    .container-grid {
         display: grid;
         grid-gap: 20px 20px;
-        grid-template-rows: repeat(4,1fr);
-        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-areas: 
-        "figure1 figure3 figure3 figure4 figure4 figure5"
-        "figure2 figure3 figure3 figure4 figure4 figure6"
-        "figure7 figure7 figure8 figure10 figure12 figure12"
-        "figure7 figure7 figure9 figure11 figure12 figure12"
-        ;
+            "figure1 figure1 figure3 figure3 figure4 figure4"
+            "figure2 figure2 figure3 figure3 figure4 figure6"
+            "figure7 figure7 figure8 figure10 figure12 figure12"
+            "figure7 figure7 figure9 figure11 figure12 figure12";
+    }
 
         .figure-gral img {
             width: 100%;
@@ -143,7 +144,7 @@ section{
         .img4{
             grid-area: img4;
         }
-    } 
+
 
     .formulario-container {
         max-width: 50%; 
@@ -195,15 +196,3 @@ section{
     margin-top: 50px; 
 }
 
-.container-grid{
-    display: grid;
-    grid-gap: 20px 20px;
-    grid-template-rows: repeat(4,1fr);
-    grid-template-columns: repeat(6,1fr);
-    grid-template-areas: 
-    "figure1 figure3 figure3 figure4 figure4 figure5"
-    "figure2 figure3 figure3 figure4 figure4 figure6"
-    "figure7 figure7 figure8 figure10 figure12 figure12"
-    "figure7 figure7 figure9 figure11 figure12 figure12"
-    ;
-}
